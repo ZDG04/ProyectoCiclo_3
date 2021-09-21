@@ -14,10 +14,10 @@ import javax.swing.JOptionPane;
 @WebServlet("/ControladorLogin")
 public class ControladorLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
+       
 	private final String USUARIO = "admininicial";
 	private final String PASSWORD = "admin123456";
-       
+      
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -39,7 +39,6 @@ public class ControladorLogin extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		//doGet(request, response)
 		String usuario, password;
 		usuario = request.getParameter("usu");
 		password = request.getParameter("pass");
@@ -59,5 +58,4 @@ public class ControladorLogin extends HttpServlet {
 			}
 		}
 	}
-
 }
