@@ -17,6 +17,8 @@
 <body>
   <h2>xd</h2>
   <h3>Hola mundo</h3>
+  
+  <h3>Hola</h3>
 <%  
 	String ce="",n="",d="",t="",cr="";
 	if(request.getParameter("do")!=null){
