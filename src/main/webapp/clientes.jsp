@@ -1,4 +1,4 @@
-<%@page import="controlador.Conexion"%>
+<%@page import="basedatos.Conexion"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -15,6 +15,8 @@
 
 </head>
 <body>
+  <h2>xd</h2>
+  <h3>Hola mundo</h3>
 <%  
 	String ce="",n="",d="",t="",cr="";
 	if(request.getParameter("do")!=null){

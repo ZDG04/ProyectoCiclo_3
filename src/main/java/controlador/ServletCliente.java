@@ -106,7 +106,12 @@ public class ServletCliente extends HttpServlet {
 				JOptionPane.showMessageDialog(null,"Cliente No Fue Actualizado");
 				response.sendRedirect("clientes.jsp");
 			}
+<<<<<<< HEAD
 			}
+=======
+			
+			
+>>>>>>> branch 'master' of https://github.com/ZDG04/ProyectoCiclo_3.git
 			
 			if(request.getParameter("btnbor")!=null) {
 			// Borrar Cliente
@@ -128,4 +133,4 @@ public class ServletCliente extends HttpServlet {
 		}
 
 		}
-	
+	}
