@@ -15,18 +15,14 @@
 
 </head>
 <body>
-  <h2>xd</h2>
-  <h3>Hola mundo</h3>
-  
-  <h3>Hola</h3>
 <%  
 	String ce="",n="",d="",t="",cr="";
 	if(request.getParameter("do")!=null){
-	ce=request.getParameter("do");
-	n=request.getParameter("nomb");
-	d=request.getParameter("dirr");
-	t=request.getParameter("tele");
-	cr=request.getParameter("core");
+		ce=request.getParameter("do");
+		n=request.getParameter("nomb");
+		d=request.getParameter("dirr");
+		t=request.getParameter("tele");
+		cr=request.getParameter("core");
 	}
 %>
     <header class="cont_header" id="cont">
